@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app-container
-        image: docker.sweagle.com:8446/gitops/gitops-demo-app:24
+        image: docker.sweagle.com:8446/gitops/gitops-demo-app:25
         ports:
         - containerPort: 5000
       imagePullSecrets:
